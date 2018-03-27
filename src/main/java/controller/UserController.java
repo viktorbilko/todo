@@ -31,11 +31,9 @@ public class UserController {
         System.out.println(userService.getUser(user));
 
 
-        val userTask = new UserTask(1,
-                "theme",
-                null,
-                0);
-        ServiceFactory.getUserTaskService().setUserTask(userTask);
+
+/*        val userTask = new UserTask(1,"theme", null,0);
+        ServiceFactory.getUserTaskService().setUserTask(userTask);*/
 
         System.out.println(userTasks.size());
     }

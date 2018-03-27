@@ -18,5 +18,6 @@ public class UserTask {
     private int id;
     private String theme;
     private List<SubTask> subTasks;
-    private int status; // status: 0 - active, 1 - finished.
+    private LocalDate localDate;
+    private StatusTask status;
 }

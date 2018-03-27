@@ -10,7 +10,7 @@ import java.util.List;
 
 public class SampleTask extends UserTask {
 
-    public SampleTask(int id, String theme, List<SubTask> subTasks, LocalDate date, int status) {
+    public SampleTask(int id, String theme, List<SubTask> subTasks, LocalDate date, StatusTask status) {
         super(id, theme, subTasks, date, status);
     }
 }
