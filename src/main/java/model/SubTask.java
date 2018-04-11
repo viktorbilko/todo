@@ -9,6 +9,6 @@ import lombok.Data;
 public class SubTask {
 
     private UserTask userTask;
-    private String textOfTask;
-    private StatusTask status; // status: 0 - active, 1 - finished.
+    private String textTask;
+    private StatusTask status;
 }
